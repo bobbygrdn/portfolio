@@ -119,7 +119,9 @@ function sendEmail(event) {
         document.getElementById('form-name').value = '';
         document.getElementById('form-email').value = '';
         document.getElementById('form-message').value = '';
+        window.scrollTo(0, 0);
         window.location.reload();
+
     }, function (error) {
         // Handle the error case
         console.log('Error:', error);
@@ -145,29 +147,6 @@ if (title === 'Bobbygrdn') {
     }
 
     mainElement.addEventListener("animationend", removeAnimationClass);
-}
-
-/**
- * The function sets a custom error message for an invalid email input.
- * @param input - The input parameter is a reference to an HTML input element, which is used to capture
- * user input.
- */
-function handleInvalidEmail(input) {
-    if (!input.validity.valid) {
-        input.setCustomValidity("Please enter a valid email address.");
-    }
-}
-
-/**
- * The function clears any custom error message set on an input element if it is valid.
- * @param input - The input parameter is a reference to an HTML input element. This function is used to
- * clear any custom validation error message that may have been set on the input element. If the input
- * element is valid, the custom validity message is set to an empty string.
- */
-function clearError(input) {
-    if (input.validity.valid) {
-        input.setCustomValidity("");
-    }
 }
 
 /* The below code is creating a timeline using the TimelineJS library and populating it with events when the user goes to the My Journey page */

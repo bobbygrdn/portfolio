@@ -64,12 +64,11 @@
                 <div class="mb-3 formInput">
                     <label for="email" class="form-label labels">Your Email</label>
                     <input type="email" class="form-control" id="form-email" name="email"
-                        pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/" required
-                        oninvalid="handleInvalidEmail(this)" oninput="clearError(this)">
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
                 </div>
                 <div class="mb-3 formInput">
                     <label for="message" class="form-label labels">Message</label>
-                    <textarea class="form-control" id="message" name="form-message" rows="5" required></textarea>
+                    <textarea class="form-control" id="form-message" name="message" rows="5" required></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="dropdown" class="form-label">Select a Topic for your Email</label>
