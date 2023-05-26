@@ -51,11 +51,11 @@ window.onscroll = function () {
 `text` and `link`. These objects represent the navigation items of a website and their corresponding
 links. */
 const navItems = [
-    { text: "Home", link: '/index.html' },
-    { text: "Projects", link: '/projects.html' },
-    { text: "Tech Stack", link: '/stack.html' },
-    { text: "My Journey", link: '/journey.html' },
-    { text: "Contact", link: '/contact.html' },
+    { text: "Home", link: '/index' },
+    { text: "Projects", link: '/projects' },
+    { text: "Tech Stack", link: '/stack' },
+    { text: "My Journey", link: '/journey' },
+    { text: "Contact", link: '/contact' },
 ];
 
 /* The below code is selecting the HTML element with the class "navbar" and assigning it to the
