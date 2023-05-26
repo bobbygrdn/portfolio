@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <title>Bobbygrdn</title>
+</head>
+
+<body>
+
+    <header id="header" class="header-hide">
+        <nav>
+            <ul class="navbar"></ul>
+        </nav>
+    </header>
+
+    <main id="homeMain" class="loadAnimation">
+        <article class="introduction">
+
+            <h1 id='name'>Robert Gordon</h1>
+            <h2 id='title'>Full Stack Software Engineer</h2>
+            <a href="#next">Click to Find Out More!</a>
+
+        </article>
+
+        <article id="next" class="articles">
+
+            <h1 class="subtitle">Who AM I</h1>
+            <span class="line"></span>
+            <p class="introInfo">I am a Full Stack Software Developer with a passion for technology, solving problems
+                and helping others.
+            </p>
+            <h1 class="subtitle">Who I Do</h1>
+            <span class="line"></span>
+            <div class="container myInfo">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="grid-item">
+                            <span class="material-icons-two-tone icon">high_quality</span>
+                            <p class="info">Track record of delivering high quality project results to various employers
+                                and managers.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="grid-item">
+                            <span class="material-icons-two-tone icon">info</span>
+                            <p class="info">Detail-oriented professional with advanced technical and leadership
+                                training, skilled at
+                                motivating teams to perform at their best to accomplish organizational goals and vision.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="grid-item">
+                            <span class="material-icons-two-tone icon">supervisor_account</span>
+                            <p class="info">Proven ability to manage and supervise teams and direct day-to-day work
+                                activity.</p>
+                        </div>
+                    </div>
+                    <div class=" col-md-6">
+                        <div class="grid-item">
+                            <span class="material-icons-two-tone icon">auto_stories</span>
+                            <p class="info">Passion for learning and collaborating with cross-functional teams to
+                                deliver high
+                                quality products.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <article id="projectInfo" class="articles">
+
+            <h1 class="subtitle">My Recent Work</h1>
+            <span class="line"></span>
+            <div class="container projects">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100">
+                            <img src="https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="car-img-top project-image" alt="Coming Soon">
+                            <div class="card-body">
+                                <h5 class="card-title">Coming Soon!!</h5>
+                                <p class="card-text">I am currently working on one of the biggest projects I have ever
+                                    put together. This project will showcase everything I have learned and what I am
+                                    passionate about.</p>
+                                <p class="card-text">Stay Tuned!!</p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100">
+                            <img src="https://camo.githubusercontent.com/5a0b6cde1438105af2f5247ac001977d40c18ff0c0392012ab7b2d2eeae7fa44/68747470733a2f2f64377674653276396c346471642e636c6f756466726f6e742e6e65742f74656368706f72745f6c6f67696e706167652e6a7067"
+                                class="car-img-top project-image" alt="Tech Port Homepage">
+                            <div class="card-body">
+                                <h5 class="card-title">Tech Port Ticket Management System</h5>
+                                <p class="card-text">Tech Port is a ticket management system that provides the ability
+                                    to serve multiple universities and keep track of their maintenance needs.
+                                </p>
+                                <p class="card-text">This technology gives the admin team the oversight to control each
+                                    campus and to track their progress through maintenance issues.
+                                </p>
+                                <p class="card-text">
+                                    It also gives each technician a portal in which they can see the campus tickets that
+                                    have been opened by the admin team. They can track their progress through the
+                                    tickets they are assigned, as well as provide feeback throughout the process.
+                                </p>
+                                <a href="https://github.com/Team-Cache-Out/tech-port" class="btn btn-primary">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <article id="contact" class="articles">
+
+            <form onsubmit="sendEmail(event)">
+                <div class="mb-3 formInput">
+                    <label for="name" class="form-label labels">Your Name</label>
+                    <input type="text" class="form-control" id="form-name" name="name" required>
+                </div>
+                <div class="mb-3 formInput">
+                    <label for="email" class="form-label labels">Your Email</label>
+                    <input type="email" class="form-control" id="form-email" name="email"
+                        pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/" required
+                        oninvalid="handleInvalidEmail(this)" oninput="clearError(this)">
+                </div>
+                <div class="mb-3 formInput">
+                    <label for="message" class="form-label labels">Message</label>
+                    <textarea class="form-control" id="message" name="form-message" rows="5" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="dropdown" class="form-label">Select a Topic for your Email</label>
+                    <select class="form-select" id="dropdown" name="dropdown">
+                        <option selected>Select an option</option>
+                        <option value="option1">Standard Comment</option>
+                        <option value="option3">Recruiter Query</option>
+                        <option value="option2">Work Request</option>
+                        <option value="option4">Consultation</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <div class="h-captcha" data-sitekey="05f5fbb3-cc61-4277-b69d-df98d5b19b50"></div>
+                    <input class="h-captcha-response" type="hidden" name="h-captcha-response">
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="toolsContainer">
+            <div class="left-container">
+
+                <p>Social Links</p>
+
+                <ul id="socials">
+                    <li>
+                        <a href="https://www.linkedin.com/in/bobbygrdn/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bobbygrdn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="center-container">
+                <p>Project Management Tools</p>
+                <div class="projTools">
+
+                    <ul>
+                        <li><a href="https://www.atlassian.com/software/jira">Jira</a></li>
+                        <li><a href="https://trello.com/">Trello</a></li>
+                    </ul>
+                    <ul>
+
+                        <li><a href="https://asana.com/">Asana</a></li>
+                        <li><a href="https://clickup.com/">ClickUp</a></li>
+                    </ul>
+                    <ul>
+
+                        <li><a href="https://monday.com/">Monday</a></li>
+                        <li><a href="https://basecamp.com/">Basecamp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-container">
+                <p>Developer Tools</p>
+                <div class="devTools">
+                    <ul>
+                        <li><a href="https://git-scm.com/">Git</a></li>
+                        <li><a href="https://www.npmjs.com/">NPM</a></li>
+                        <li><a href="https://www.docker.com/">Docker</a></li>
+                    </ul>
+                    <ul>
+
+                        <li><a href="https://jestjs.io/">Jest</a></li>
+                        <li><a href="https://www.postman.com/">Postman</a></li>
+                        <li><a href="https://render.com/">Render</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://junit.org/">JUnit</a></li>
+                        <li><a href="https://maven.apache.org/">Maven</a></li>
+                        <li><a href="https://openai.com/">ChatGPT</a></li>
+                    </ul>
+                    <ul>
+
+                        <li><a href="https://bard.google.com/">Bard</a></li>
+                        <li><a href="https://reactjs.org/">React</a></li>
+                        <li><a href="https://spring.io/">Spring</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 Bobbygrdn. All rights reserved.</p>
+    </footer>
+
+    <script>
+        (function () {
+            emailjs.init('hTkPvQSott18YJLGK');
+        })();
+    </script>
+
+</body>
+
+</html>
