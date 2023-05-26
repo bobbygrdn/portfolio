@@ -35,7 +35,6 @@ the previous scroll position to determine the direction of the scroll. */
 window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
 
-    console.log(isMouseAtTop)
     if (isMouseAtTop || (currentScrollPos !== 0 && prevScrollPos > currentScrollPos)) {
         // Scrolling up
         header.style.transform = 'translateY(0)';
@@ -99,9 +98,9 @@ function sendEmail(event) {
     event.preventDefault(); // Prevent the form from submitting normally
 
     // Get the form data
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const name = document.getElementById('form-name').value;
+    const email = document.getElementById('form-email').value;
+    const message = document.getElementById('form-message').value;
 
     const response = document.querySelector('.h-captcha');
     if (!response || response.value === '') {
@@ -117,9 +116,9 @@ function sendEmail(event) {
     }).then(function () {
         // Handle the success case
         alert('Your message has been sent!');
-        document.getElementById('name').value = '';
-        document.getElementById('email').value = '';
-        document.getElementById('message').value = '';
+        document.getElementById('form-name').value = '';
+        document.getElementById('form-email').value = '';
+        document.getElementById('form-message').value = '';
         window.location.reload();
     }, function (error) {
         // Handle the error case
