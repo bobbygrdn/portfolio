@@ -51,11 +51,11 @@ window.onscroll = function () {
 `text` and `link`. These objects represent the navigation items of a website and their corresponding
 links. */
 const navItems = [
-    { text: "Home", link: './index.html' },
-    { text: "Projects", link: './projects.html' },
-    { text: "Tech Stack", link: './stack.html' },
-    { text: "My Journey", link: './journey.html' },
-    { text: "Contact", link: './contact.html' },
+    { text: "Home", link: '/index.html' },
+    { text: "Projects", link: '/projects.html' },
+    { text: "Tech Stack", link: '/stack.html' },
+    { text: "My Journey", link: '/journey.html' },
+    { text: "Contact", link: '/contact.html' },
 ];
 
 /* The below code is selecting the HTML element with the class "navbar" and assigning it to the
@@ -66,6 +66,7 @@ const navList = document.querySelector('.navbar');
 current page's pathname using the `window.location.pathname` property in JavaScript. This code is
 typically used in web development to get the current URL path of the page. */
 const currentPage = window.location.pathname;
+console.log(currentPage)
 
 /* The below code is creating a navigation menu by iterating through an array of navigation items and
 creating a list item for each item in the array. It excludes the current page from the navigation
