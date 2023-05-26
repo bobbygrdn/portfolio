@@ -66,7 +66,7 @@ const navList = document.querySelector('.navbar');
 current page's pathname using the `window.location.pathname` property in JavaScript. This code is
 typically used in web development to get the current URL path of the page. */
 const currentPage = window.location.pathname;
-console.log(currentPage)
+console.log(currentPage);
 
 /* The below code is creating a navigation menu by iterating through an array of navigation items and
 creating a list item for each item in the array. It excludes the current page from the navigation
