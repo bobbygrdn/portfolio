@@ -242,7 +242,7 @@ main {
     animation: appear 4s forwards;
     animation-timing-function: linear;
     animation-delay: 4s;
-    font-size: 4vw;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -531,5 +531,10 @@ footer p {
 
     .aboutText {
     font-size: 1em;
-}
+    }
+
+    #name,
+    #title {
+        font-size: 1.5em;
+    }
 }
