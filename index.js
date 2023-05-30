@@ -50,8 +50,8 @@ window.onscroll = function () {
 /* The below code is defining an array of objects called `navItems`. Each object has two properties:
 `text` and `link`. These objects represent the navigation items of a website and their corresponding
 links. */
-const navItems = [
-    { text: "Home", link: '/' },
+let navItems = [
+    { text: "Home", link: 'index.html' },
     { text: "Projects", link: 'projects.html' },
     { text: "Tech Stack", link: 'stack.html' },
     { text: "My Journey", link: 'journey.html' },
@@ -72,7 +72,10 @@ creating a list item for each item in the array. It excludes the current page fr
 menu. For each item, it creates a list item element and an anchor element, sets the text content and
 href attribute of the anchor element, and appends the anchor element to the list item element.
 Finally, it appends the list item element to the navigation menu. */
-navItems.forEach(item => {
+if(currentPage === '/') {
+    navItems = navItems.slice(1,5);
+}
+navItems.map(item => {
     // Exclude the current page from the navigation menu
     if (!currentPage.includes(item.link)) {
         const li = document.createElement('li');
@@ -86,6 +89,7 @@ navItems.forEach(item => {
         li.appendChild(a);
         navList.appendChild(li);
     }
+
 });
 
 /**
