@@ -51,7 +51,7 @@ window.onscroll = function () {
 `text` and `link`. These objects represent the navigation items of a website and their corresponding
 links. */
 const navItems = [
-    { text: "Home", link: 'index.html' },
+    { text: "Home", link: '/' },
     { text: "Projects", link: 'projects.html' },
     { text: "Tech Stack", link: 'stack.html' },
     { text: "My Journey", link: 'journey.html' },
