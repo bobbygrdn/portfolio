@@ -72,7 +72,7 @@ creating a list item for each item in the array. It excludes the current page fr
 menu. For each item, it creates a list item element and an anchor element, sets the text content and
 href attribute of the anchor element, and appends the anchor element to the list item element.
 Finally, it appends the list item element to the navigation menu. */
-if(currentPage === '/') {
+if(currentPage === '/' || '/portfolio/') {
     navItems = navItems.slice(1,5);
 }
 navItems.map(item => {
