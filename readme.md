@@ -1,4 +1,7 @@
 # Bobbygrdn Portfolio 💻
+
+![Screenshot 2023-05-26 140742](https://github.com/bobbygrdn/portfolio/assets/96712943/fd4a1e0b-37fb-47f9-916d-110be8ab5131)
+
 ## Description 📚
  This project is my personal portfolio that showcases my knowledge of frontend technologies. It shows my journey as a Software Developer and professional, my Technology Stack, my projects that I am most proud of and a way to follow me on social media or contact me through email.  
 

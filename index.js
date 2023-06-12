@@ -47,48 +47,6 @@ window.onscroll = function () {
     prevScrollPos = currentScrollPos;
 };
 
-/* The below code is defining an array of objects called `navItems`. Each object has two properties:
-`text` and `link`. These objects represent the navigation items of a website and their corresponding
-links. */
-const navItems = [
-    { text: "Home", link: '/index.html' },
-    { text: "Projects", link: '/projects.html' },
-    { text: "Tech Stack", link: '/stack.html' },
-    { text: "My Journey", link: '/journey.html' },
-    { text: "Contact", link: '/contact.html' },
-];
-
-/* The below code is selecting the HTML element with the class "navbar" and assigning it to the
-variable "navList" using the `querySelector` method in JavaScript. */
-const navList = document.querySelector('.navbar');
-
-/* The below code is declaring a constant variable `currentPage` and assigning it the value of the
-current page's pathname using the `window.location.pathname` property in JavaScript. This code is
-typically used in web development to get the current URL path of the page. */
-const currentPage = window.location.pathname;
-console.log(currentPage)
-
-/* The below code is creating a navigation menu by iterating through an array of navigation items and
-creating a list item for each item in the array. It excludes the current page from the navigation
-menu. For each item, it creates a list item element and an anchor element, sets the text content and
-href attribute of the anchor element, and appends the anchor element to the list item element.
-Finally, it appends the list item element to the navigation menu. */
-navItems.forEach(item => {
-    // Exclude the current page from the navigation menu
-    if (currentPage !== item.link) {
-        const li = document.createElement('li');
-        li.classList.add('nav-item');
-
-        const a = document.createElement('a');
-        a.classList.add('nav-link');
-        a.textContent = item.text;
-        a.href = item.link;
-
-        li.appendChild(a);
-        navList.appendChild(li);
-    }
-});
-
 /**
  * This function sends an email using EmailJS and includes a captcha challenge to prevent spam.
  * @param event - The event parameter is an object that represents the event that triggered the

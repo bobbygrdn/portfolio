@@ -127,7 +127,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
 }
 
 #next,
@@ -135,9 +134,11 @@ main {
     background-color: var(--secondary-color);
 }
 
+#next,
 #contact,
 #about {
-    height: 70vh;
+    height: fit-content;
+    padding: 1em 0;
 }
 
 
@@ -241,7 +242,7 @@ main {
     animation: appear 4s forwards;
     animation-timing-function: linear;
     animation-delay: 4s;
-    font-size: 4vw;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -292,8 +293,8 @@ a {
     box-shadow: 0 0 20em rgba(0, 0, 0, 0.5);
 }
 
-#aboutText {
-    width: 80vw;
+.aboutText {
+    width: 60vw;
     text-align: center;
     font-size: 1.5em;
     color: var(--secondary-color);
@@ -343,7 +344,7 @@ nav {
 .navbar li {
     display: inline;
     margin-right: 1em;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 .navbar a {
@@ -414,6 +415,7 @@ nav {
 footer {
     margin-top: auto;
     width: 100%;
+    height: auto;
     padding: 1em;
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -428,7 +430,8 @@ footer p {
 
 .toolsContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: .5em;
     width: 100%;
 }
@@ -482,6 +485,10 @@ footer p {
     color: var(--secondary-color);
 }
 
+.links {
+    font-size: 1em;
+}
+
 .toolsContainer li {
     list-style: none;
     margin-bottom: 1em;
@@ -511,4 +518,23 @@ footer p {
 ::-webkit-scrollbar-thumb {
     background-color: #888;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 700px) {
+    .links {
+        font-size: .75em;
+    }
+
+    .navbar li {
+        font-size: 1em;
+    }
+
+    .aboutText {
+    font-size: 1em;
+    }
+
+    #name,
+    #title {
+        font-size: 1.5em;
+    }
 }
