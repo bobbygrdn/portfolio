@@ -244,6 +244,7 @@ main {
     animation-delay: 4s;
     font-size: 3em;
     font-weight: bold;
+    color: #f5f5f5;
 }
 
 @keyframes appear {
@@ -530,7 +531,7 @@ footer p {
     }
 
     .aboutText {
-    font-size: 1em;
+        font-size: 1em;
     }
 
     #name,
