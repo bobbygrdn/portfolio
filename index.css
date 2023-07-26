@@ -46,7 +46,7 @@ main {
 }
 
 .loadAnimation {
-    animation: start 5s 1 forwards;
+    animation: start 3s 1 forwards;
     animation-timing-function: linear;
 }
 
@@ -96,6 +96,52 @@ main {
     }
 }
 
+@keyframes iconStart {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.1;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    90% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .introduction {
     height: 100vh;
     display: flex;
@@ -104,7 +150,7 @@ main {
     justify-content: center;
     flex-grow: 1;
     font-weight: bold;
-    animation: start 8s forwards;
+    animation: start 6s forwards;
     animation-timing-function: linear;
 }
 
@@ -117,7 +163,7 @@ main {
     opacity: 0;
     animation: appear 4s forwards, bounce 2s infinite;
     animation-timing-function: linear;
-    animation-delay: 4s;
+    animation-delay: 8s;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -128,6 +174,25 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+#skills {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 80vw;
+    height: 10em;
+    margin-top: 4em;
+}
+
+.skillsIcons {
+    animation: iconStart 10s forwards;
+    animation-timing-function: linear;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
 
 #next,
 #contact {
@@ -178,6 +243,7 @@ main {
 .introInfo {
     text-align: center;
     font-size: 2em;
+    width: 90vw;
 }
 
 .info {
