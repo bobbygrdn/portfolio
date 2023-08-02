@@ -150,7 +150,7 @@ main {
     justify-content: center;
     flex-grow: 1;
     font-weight: bold;
-    animation: start 6s forwards;
+    animation: start 3s forwards;
     animation-timing-function: linear;
 }
 
