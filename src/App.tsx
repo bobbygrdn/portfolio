@@ -49,10 +49,10 @@ const projects = [
     description:
       "My goal was to create a comprehensive, user-friendly learning platform that empowers users to master web development skills through interactive lessons, quizzes, and hands-on projects. The platform features robust content management, progress tracking, and assessment tools, along with secure user authentication and authorization to ensure safe access.",
     image:
-      "https://private-user-images.githubusercontent.com/96712943/408425267-4e152224-e63a-4778-815e-fa212283d499.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgzMDM0MzcsIm5iZiI6MTczODMwMzEzNywicGF0aCI6Ii85NjcxMjk0My80MDg0MjUyNjctNGUxNTIyMjQtZTYzYS00Nzc4LTgxNWUtZmEyMTIyODNkNDk5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMxVDA1NTg1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk4MDNiY2I4YzNmNjJlMTg3ZDVlNGUyNGJjNmY4ZTE3ZTM3OGNhNmI0Yjc5YzljNGE4ZThjMTU5YzE5NjBiZGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2AXouO7-gOC0LZvajzNGeb9oDWYSeYGfgbEOYSWhP8s",
+      "https://private-user-images.githubusercontent.com/96712943/254004702-d2e18893-8fe5-4bc5-a697-9a0c4249af65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgzMDU5ODQsIm5iZiI6MTczODMwNTY4NCwicGF0aCI6Ii85NjcxMjk0My8yNTQwMDQ3MDItZDJlMTg4OTMtOGZlNS00YmM1LWE2OTctOWEwYzQyNDlhZjY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMxVDA2NDEyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc4NTc0YzU5Y2IwZGMxZDdhNzA2ZmYwYjYwOTJiZWQ1YWRlZTZiYWQzMjA1NTcyNTUwMjkzZmFkOTVmNmMzNTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.y1vICEB76rZYHiiGJ3dmMsaS9c9IB0qm4eAUnhmp20M",
     status: "Completed",
     tech: ["React", "Java", "Spring Boot", "MySQL"],
-    link: "#",
+    link: "https://github.com/bobbygrdn/learning_platform",
   },
   {
     id: 4,
