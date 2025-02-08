@@ -40,10 +40,7 @@ This project is a personal portfolio website built using React and TypeScript. I
 
 ## Deployment
 
-This project is deployed on GitHub Pages. To deploy, run:
-```sh
-npm run deploy
-```
+This project is deployed on GitHub Pages.
 
 ## License
 
@@ -51,4 +48,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Feel free to reach out to me through the contact form on the website or via [email@example.com](mailto:bobbygrdn777@gmail.com).
+Feel free to reach out to me through the contact form on the website or via [bobbygrdn777@gmail.com](mailto:bobbygrdn777@gmail.com).
