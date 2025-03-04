@@ -17,16 +17,16 @@ import { SocialLink } from "./components/SocialLink";
 const projects = [
   {
     id: 1,
-    title: "Menu Scheduler",
+    title: "Kitchen Manager",
     category: "Full Stack Application",
     featured: true,
     description:
       "This project aims to develop a comprehensive menu scheduling application that enables managers to create and share weekly menus with their staff. The application ensures that employees have clear visibility of the planned meals while accommodating specific dietary restrictions and allergies.",
     image:
-      "https://images.unsplash.com/photo-1590479773265-7464e5d48118?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    status: "In Development",
+      "https://github.com/user-attachments/assets/8aadacfe-1e57-4a1e-b6c6-12a9ddb8ff83",
+    status: "Live",
     tech: ["React", "TypeScript", "Supabase", "PostgreSQL"],
-    link: "https://github.com/chingu-voyages/V53-tier3-team-38",
+    link: "https://v53-tier3-team-38.netlify.app/",
   },
   {
     id: 2,
