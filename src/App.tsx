@@ -21,7 +21,7 @@ const projects = [
     description:
       "This project aims to develop a comprehensive menu scheduling application that enables managers to create and share weekly menus with their staff. The application ensures that employees have clear visibility of the planned meals while accommodating specific dietary restrictions and allergies.",
     image:
-      "/assets/418780902-8aadacfe-1e57-4a1e-b6c6-12a9ddb8ff83.png",
+      "assets/418780902-8aadacfe-1e57-4a1e-b6c6-12a9ddb8ff83.png",
     status: "Live",
     tech: ["React", "TypeScript", "Supabase", "PostgreSQL"],
     link: "https://v53-tier3-team-38.netlify.app/",
@@ -34,7 +34,7 @@ const projects = [
     description:
       "Intracom is an open-source communication tool developed by engineers, for engineers. Collaborate on real-world projects, showcase your contributions, and get noticed by recruitersy a global community of engineers.",
     image:
-      "/assets/intracom-reaction.webp",
+      "assets/intracom-reaction.webp",
     status: "In Development",
     tech: ["React", "TypeScript", "TailwindCSS", "Electron.js", "Socket.io", "Express.js", "MongoDB"],
     link: "https://intracom.app/",
@@ -47,7 +47,7 @@ const projects = [
     description:
       "My goal was to create a comprehensive, user-friendly learning platform that empowers users to master web development skills through interactive lessons, quizzes, and hands-on projects. The platform features robust content management, progress tracking, and assessment tools, along with secure user authentication and authorization to ensure safe access.",
     image:
-      "/assets/254004702-d2e18893-8fe5-4bc5-a697-9a0c4249af65.png",
+      "assets/254004702-d2e18893-8fe5-4bc5-a697-9a0c4249af65.png",
     status: "Completed",
     tech: ["React", "Java", "Spring Boot", "MySQL"],
     link: "https://github.com/bobbygrdn/learning_platform",
@@ -60,7 +60,7 @@ const projects = [
     description:
       "A Ticket Management System designed to efficiently track and manage maintenance requests across company buildings. Built with React, Node.js, and PostgreSQL for a robust and scalable solution.",
     image:
-      "/assets/68747470733a2f2f64377674653276396c346471642e636c6f756466726f6e742e6e65742f74656368706f72745f6c6f67696e706167652e6a7067.jpeg",
+      "assets/68747470733a2f2f64377674653276396c346471642e636c6f756466726f6e742e6e65742f74656368706f72745f6c6f67696e706167652e6a7067.jpeg",
     status: "Complete",
     tech: ["React", "Node.js", "express.js", "PostgreSQL"],
     link: "https://github.com/Team-Cache-Out/tech-port",
