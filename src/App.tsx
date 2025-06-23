@@ -229,33 +229,6 @@ export function App() {
         </div>
       )}
       <main className="pt-24 sm:pt-32 px-4 sm:px-6 lg:px-8">
-        {showInstallPrompt && (
-          <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 bg-zinc-900 border border-blue-500/30 rounded-xl shadow-lg px-6 py-4 flex items-center gap-4 animate-in fade-in duration-300">
-            <span className="text-zinc-100 font-medium">Install this app for a better experience!</span>
-            <Button
-              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg"
-              onClick={async () => {
-                if (deferredPrompt) {
-                  deferredPrompt.prompt();
-                  const { outcome } = await deferredPrompt.userChoice;
-                  if (outcome === 'accepted') {
-                    setShowInstallPrompt(false);
-                  }
-                  setDeferredPrompt(null);
-                }
-              }}
-            >
-              Install
-            </Button>
-            <button
-              className="ml-2 text-zinc-400 hover:text-zinc-100"
-              onClick={() => setShowInstallPrompt(false)}
-              aria-label="Dismiss install prompt"
-            >
-              <X className="h-5 w-5" />
-            </button>
-          </div>
-        )}
         <div className="max-w-6xl mx-auto">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-cyan-400 text-transparent bg-clip-text leading-tight">
