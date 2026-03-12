@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://bobbygrdn.github.io/portfolio",
+  "homepage": "https://bobbygrdn.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
