@@ -11,7 +11,7 @@ export default defineConfig({
       manifest: {
         name: 'Bobbygrdn Portfolio',
         short_name: 'Portfolio',
-        start_url: '/portfolio/',
+        start_url: '/',
         display: 'standalone',
         background_color: '#09090b',
         theme_color: '#38bdf8',
