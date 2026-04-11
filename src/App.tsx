@@ -148,7 +148,7 @@ export function App() {
     Backend: ["Express.js", "Spring Boot", "Node.js", "Java"],
     Database: ["PostgreSQL", "MySQL", "MongoDB"],
     DevOps: ["Husky", "Git", "Docker", "GitHub Actions"],
-    Cloud: [ "AWS (Lambda, DynamoDB, API Gateway, S3, Route 53)" ]
+    AWS: [ "Lambda", "DynamoDB", "API Gateway", "S3", "Route 53" ]
   };
   return (
     <div className="w-full min-h-screen bg-zinc-950 text-zinc-100">
