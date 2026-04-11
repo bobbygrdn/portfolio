@@ -148,6 +148,7 @@ export function App() {
     Backend: ["Express.js", "Spring Boot", "Node.js", "Java"],
     Database: ["PostgreSQL", "MySQL", "MongoDB"],
     DevOps: ["Husky", "Git", "Docker", "GitHub Actions"],
+    Cloud: [ "AWS (Lambda, DynamoDB, API Gateway, S3, Route 53)" ]
   };
   return (
     <div className="w-full min-h-screen bg-zinc-950 text-zinc-100">
@@ -235,9 +236,7 @@ export function App() {
               Full Stack Software Engineer
             </h1>
             <p className="text-lg sm:text-xl text-zinc-400 mb-8 leading-relaxed">
-              Building robust and scalable applications with modern
-              technologies. Focused on creating exceptional user experiences
-              through clean, efficient code.
+              Building robust, scalable applications with a focus on <b>Serverless Cloud Architecture</b> and clean, efficient code.
             </p>
             <div className="flex flex-col gap-6">
               <div className="group relative w-full sm:w-auto self-start">
