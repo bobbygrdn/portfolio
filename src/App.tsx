@@ -357,7 +357,7 @@ export function App() {
             </div>
           </div>
         </section>
-        <section id="skills" className="py-20 sm:py-24 lg:py-32 bg-zinc-900/50">
+        <section id="skills" className="py-10 sm:py-24 lg:py-32">
           <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 bg-gradient-to-r from-blue-400 to-cyan-400 text-transparent bg-clip-text">
               Technical Skills
@@ -379,7 +379,35 @@ export function App() {
             </div>
           </div>
         </section>
-        <section id="contact" className="py-20 sm:py-24 lg:py-32">
+        <section id="certifications" className="py-10 sm:py-24 lg:py-32">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 bg-gradient-to-r from-blue-400 to-cyan-400 text-transparent bg-clip-text">
+          Certifications
+          </h2>
+          <div className="flex items-center gap-5 bg-white/5 p-5 rounded-lg">
+            <a
+            href="https://skillbuilder.aws/learn/736QB43CDN/serverless-knowledge-badge-assessment"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://images.credly.com/size/680x680/images/0c20a5b7-b4e9-4c2f-8b68-342e00a85e05/blob"
+              alt="AWS Knowledge: Serverless Badge"
+              width={120}
+              height={120}
+            />
+          </a>
+          <div>
+            <h3 className="m-0 text-lg font-semibold">AWS Knowledge: Serverless</h3>
+            <p className="mt-1 mb-0 opacity-80">
+              Amazon Web Services (AWS) | Issued 2026
+            </p>
+            <p className="text-sm mt-2">
+              Validated expertise in event-driven architectures, AWS Lambda, and DynamoDB orchestration.
+            </p>
+          </div>
+        </div>
+      </section>
+        <section id="contact" className="py-10 sm:py-24 lg:py-32">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-2xl sm:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-cyan-400 text-transparent bg-clip-text">
