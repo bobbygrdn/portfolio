@@ -154,9 +154,7 @@ export function App() {
     <div className="w-full min-h-screen bg-zinc-950 text-zinc-100">
       <header className="fixed top-0 w-full bg-zinc-950/80 backdrop-blur-sm border-b border-zinc-800 z-50">
         <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <span className="font-mono text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 text-transparent bg-clip-text">
-            RG
-          </span>
+          <img src="assets/96712943.jpg" alt="Logo" className="h-10 w-10 rounded-full" />
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navItems.map(({ href, label, icon }) => (
               <a
