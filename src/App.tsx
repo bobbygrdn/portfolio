@@ -37,7 +37,7 @@ const projects = [
       "assets/intracom-reaction.webp",
     status: "In Development",
     tech: ["React", "TypeScript", "TailwindCSS", "Electron.js", "Socket.io", "Express.js", "MongoDB"],
-    link: "https://intracom.app/",
+    link: "https://github.com/project-ascend-io",
   },
   {
     id: 3,
